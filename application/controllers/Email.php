@@ -19,8 +19,8 @@ class Email extends CI_Controller{
             $mail->isSMTP();                                      // Setmailer touse SMTP
             $mail->Host = 'smtp.gmail.com';  // Specify main andbackup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'tubespaw1920@gmail.com';                 // SMTP username
-            $mail->Password= 'tubespaw1234567890';                           // SMTP password
+            $mail->Username = '';                 // SMTP username
+            $mail->Password= '';                           // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port toconnectto
             //Recipients
