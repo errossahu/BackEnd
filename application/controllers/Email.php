@@ -24,8 +24,8 @@ class Email extends CI_Controller{
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port toconnectto
             //Recipients
-            $mail->setFrom('tubespaw1920@gmail.com', 'MakanYuk');
-            $mail->addAddress('chrisnamahendra@gmail.com', 'greg');     // Adda recipient
+            $mail->setFrom('');
+            $mail->addAddress('');     // Adda recipient
             //$mail->addAddress('ellen@example.com');               // Nameisoptional
             //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('cc@example.com');
